@@ -2,7 +2,7 @@
 <head> 
     <meta charset="UTF-8">
     <link rel=stylesheet href="zmeny.css" text=text/html>
-    <title>Změny vlastností objektů</title>
+    <title>Změny vlastností objektů II.</title>
 </head>
 <body>
     <h1>Stránka se změnami vlastností objektů</h1>
@@ -16,29 +16,15 @@
     <button>modrá</button>
     <button>žlutá</button>
     <button>původní</button>
-    <br/>
-    <button class="pridejMotylaBtn">Přidej motýla!<br/>
-            <img src="motyli.gif" height="50px"><br/>
-            Přidej motýla!
-    </button>
-
-        <table border="7" align="center">
-            <th colspan="2">Naši motýli</th>
-            <tr>
-                <td onmousedown="document.getElementById('mySelectedImg').innerHTML='<img src=\'otakarek.gif\'>'"
-                    onmouseover="this.style.backgroundColor='yellow'"
-                    onmouseleave="this.style.backgroundColor=''">Otakárek</td>
-                <td id="mySelectedImg" rowspan="4"><img src='motyli.gif'></td>       
-            </tr>
-            <tr><td onmousedown="document.getElementById('mySelectedImg').innerHTML='<img src=\'zlutasek.gif\'>'"
-                    onmouseover="this.style.backgroundColor='yellow'"
-                    onmouseleave="this.style.backgroundColor=''">Žluťásek</td></tr>
-            <tr><td onmousedown="document.getElementById('mySelectedImg').innerHTML='<img src=\'babocka.gif\'>'"
-                    onmouseover="this.style.backgroundColor='yellow'"
-                    onmouseleave="this.style.backgroundColor=''">Babočka</td></tr>    
-        </table>
-
-
+    
+    <div class="pridejMotylaDiv">
+        <br/>
+        <button class="pridejMotylaBtn">Přidej motýla!<br/>
+                <img class="pridejMotylaBtnImg" src="motyli.gif">
+                <br/>Přidej motýla!
+        </button>
+        <br/>
+    </div>
 </body>
 
 </html>

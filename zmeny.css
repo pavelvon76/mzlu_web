@@ -16,5 +16,10 @@ td {text-align: center;
 img {width: 250px;}
 th {height: 50px;}
 
+li.mainPageList {}
+div.pridejMotylaDiv {text-align: center;}
 button.pridejMotylaBtn {font-weight: bold;
-                        }
+                        height: 200px;
+                        width: 200px;}
+Img.pridejMotylaBtnImg {width: 150px;
+                        height: 120px;}
