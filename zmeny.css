@@ -16,10 +16,13 @@ td {text-align: center;
 img {width: 250px;}
 th {height: 50px;}
 
-li.mainPageList {}
 div.pridejMotylaDiv {text-align: center;}
 button.pridejMotylaBtn {font-weight: bold;
                         height: 200px;
                         width: 200px;}
-Img.pridejMotylaBtnImg {width: 150px;
-                        height: 120px;}
+img.pridejMotylaBtnImg {width: 150px;
+                        height: 120p;
+                    }
+
+img.mujAdmiral {width: 50px;
+                height: 50px;}
