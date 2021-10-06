@@ -3,8 +3,6 @@
 body {font-family:'Times New Roman', Times, serif;
       background-color:palegreen;}
 h1, h2 {color:""; text-align: center}
-p.MyHidden {display:"none"}
-p.mainPage {text-align: center;}
 table {background-color:rgb(214, 255, 214);
        border-color: seagreen;
        border-style: ridge;
@@ -16,13 +14,15 @@ td {text-align: center;
 img {width: 250px;}
 th {height: 50px;}
 
-div.pridejMotylaDiv {text-align: center;}
-button.pridejMotylaBtn {font-weight: bold;
-                        height: 200px;
-                        width: 200px;}
-img.pridejMotylaBtnImg {width: 150px;
-                        height: 120p;
+/* definice trid */
+.mainPage {text-align: center;}
+.pridejMotylaDiv {text-align: center;}
+.pridejMotylaBtn {font-weight: bold;
+                height: 200px;
+                width: 200px;}
+.pridejMotylaBtnImg {width: 150px;
+                    height: 120p;
                     }
 
-img.mujAdmiral {width: 50px;
-                height: 50px;}
+.mujAdmiral {width: 50px;
+            height: 50px;}
