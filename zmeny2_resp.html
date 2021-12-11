@@ -1,0 +1,49 @@
+<html>
+<head> 
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href="zmeny_resp.css" text=text/html>
+    <title>Změny vlastností objektů II.</title>
+</head>
+<body>
+    <div class="header">
+        <h1 onmouseover="this.style.color='salmon'; 
+                            this.style.fontFamily='Courier'"
+            onmouseout="this.style.color='';
+                        this.style.fontFamily=''"
+            >Stránka se změnami vlastností objektů</h1>
+        <p class="mainPage"><a href="https://akela.mendelu.cz/~rybicka/cviceni/js/cvic3/zadani.html" target="_blank">zadání</a></p>
+    </div>
+    <div class="menu">    
+        <ul>
+            <li>Najeď myší nad hlavní nadpis.</li>
+            <li>Klikni na tlačítko s barvou</li>
+            <li>Klikni na tlačítko Přidej motýla</li>
+        </ul>
+    </div>
+        <br/>
+    <div class="row">
+        <div class="col-3">
+        <button onmousedown="this.style.color='red';document.body.style.backgroundColor='red'">červená</button>
+        <button onmousedown="this.style.color='green';document.body.style.backgroundColor='green'">zelená</button>
+        <button onmousedown="this.style.color='blue';document.body.style.backgroundColor='blue'">modrá</button>
+        <button onmousedown="this.style.color='yellow';document.body.style.backgroundColor='yellow'">žlutá</button>
+        <button onmousedown="this.style.color='';document.body.style.backgroundColor='';
+                                                document.getElementById('motyl').innerHTML='<img src=\'babocka.gif\'>'">původní</button>
+        </div>
+        <div class="col-6">                                            
+            <button class="pridejMotylaBtn" 
+                    onmousedown="document.getElementById('motyl').innerHTML+='<img class=\'mujAdmiral\' src=\'babocka.gif\'>'">Přidej motýla!<br/>
+                    <img class="pridejMotylaBtnImg" src="motyli.gif">
+                    <br/>Přidej motýla!
+            </button>       
+        </div>
+        <div class="col-9" id="motyl"><img src='babocka.gif'></div>
+   </div>
+
+  
+    <div class="mainPage">
+        <a href="https://htmlpreview.github.io/?https://github.com/pavelvon76/mzlu_web/blob/master/zmeny.html">Zde je první část úkolu.</a>
+    </div>
+</body>
+
+</html>

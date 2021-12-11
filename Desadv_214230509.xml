@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<orion_message>
+  <header>
+    <message_type>DESADV</message_type>
+    <version>1.0.0</version>
+    <creation_date>2021-11-23</creation_date>
+    <creation_time>16:46:25</creation_time>
+    <receiver>8590794000000</receiver>
+    <sender>8595206600007</sender>
+  </header>
+  <body>
+    <message_header>
+      <doc_number>214230509</doc_number>
+      <doc_type>351</doc_type>
+      <doc_function>9</doc_function>
+      <doc_date_of_issue>2021-10-11</doc_date_of_issue>
+      <delivery_date>2021-10-11</delivery_date>
+      <delivery_date_earliest>2021-10-08</delivery_date_earliest>
+      <departure_time>0:00:00</departure_time>
+      <country_of_origin>CZ</country_of_origin>
+      <registration>V obchodním rejstříku vedeném u Kraj. soudu v Hradci Králové odd.Dr, vl.146, den zápisu 9.10.1991</registration>
+      <order_number>6690164128</order_number>
+      <order_number_date>2021-10-06</order_number_date>
+      <supplier_order_number>217108625</supplier_order_number>
+      <party>
+        <party_qualifier>BY</party_qualifier>
+        <party_ean>8590794000000</party_ean>
+        <party_name>HORNBACH Baumarkt CS</party_name>
+        <street>Chlumecká 2398</street>
+        <place>Praha 9</place>
+        <postcode>19800</postcode>
+        <country_code>CZ</country_code>
+        <country_name>Czech Republic</country_name>
+        <company_id>47117559</company_id>
+        <tax_id>CZ47117559</tax_id>
+        <contact_tel>+420225356000</contact_tel>
+        <contact_fax>00420-255354333</contact_fax>
+        <contact_email>fakturace-cz@hornbach.com</contact_email>
+      </party>
+      <party>
+        <party_qualifier>DP</party_qualifier>
+        <party_ean>8590794006699</party_ean>
+        <party_name>HORNBACH Baumarkt CS</party_name>
+        <street>Strakonická 62</street>
+        <place>Velká Chuchle</place>
+        <postcode>15900</postcode>
+        <company_id>47117559</company_id>
+        <contact_email>wareneingang-chuchle@hornbach.com</contact_email>
+      </party>
+      <party>
+        <party_qualifier>SU</party_qualifier>
+        <party_ean>8595206600007</party_ean>
+        <party_name>Dřevojas, výrobní družstvo</party_name>
+        <street>Pražská 2060/50</street>
+        <place>Svitavy</place>
+        <postcode>56802</postcode>
+        <country_code>CZ</country_code>
+        <country_name>Czech Republic</country_name>
+        <company_id>42193940</company_id>
+        <tax_id>CZ42193940</tax_id>
+        <contact_tel>+420461653931</contact_tel>
+        <contact_fax>+420 461 653 932</contact_fax>
+        <contact_email>sekretariat@drevojas.cz</contact_email>
+      </party>
+    </message_header>
+    <line_items>
+      <item>
+        <package_number>1</package_number>
+        <package_reference>1E</package_reference>
+        <package_quantity>2</package_quantity>
+        <package_type>201</package_type>
+      </item>
+      <item>
+        <package_number>2</package_number>
+        <package_reference>1</package_reference>
+        <package_type>201</package_type>
+        <total_weight>114</total_weight>
+        <total_weight_unit>KGM</total_weight_unit>
+        <height_dim>15</height_dim>
+        <height_unit>CM</height_unit>
+        <sscc_code>00859520660000057751</sscc_code>
+        <articles>
+          <article>
+            <item_number>1</item_number>
+            <article_gtin>8595206651276</article_gtin>
+            <article_id_supplier>51276</article_id_supplier>
+            <article_id_buyer>8490093</article_id_buyer>
+            <quantity>2</quantity>
+            <unit>PCE</unit>
+            <order_number>6690164128</order_number>
+            <order_line>3</order_line>
+          </article>
+          <article>
+            <item_number>2</item_number>
+            <article_gtin>8596204001315</article_gtin>
+            <article_id_buyer>6848907</article_id_buyer>
+            <quantity>2</quantity>
+            <unit>PCE</unit>
+            <order_number>6690164128</order_number>
+            <order_line>1</order_line>
+          </article>
+          <article>
+            <item_number>3</item_number>
+            <article_gtin>8595206661473</article_gtin>
+            <article_id_supplier>61473</article_id_supplier>
+            <article_id_buyer>6611855</article_id_buyer>
+            <quantity>1</quantity>
+            <unit>PCE</unit>
+            <order_number>6690164128</order_number>
+            <order_line>2</order_line>
+          </article>
+        </articles>
+      </item>
+      <item>
+        <package_number>3</package_number>
+        <package_reference>1</package_reference>
+        <package_type>201</package_type>
+        <total_weight>45</total_weight>
+        <total_weight_unit>KGM</total_weight_unit>
+        <height_dim>15</height_dim>
+        <height_unit>CM</height_unit>
+        <sscc_code>00859520660000057775</sscc_code>
+        <articles>
+          <article>
+            <item_number>4</item_number>
+            <article_gtin>8595206661473</article_gtin>
+            <article_id_supplier>61473</article_id_supplier>
+            <article_id_buyer>6611855</article_id_buyer>
+            <quantity>1</quantity>
+            <unit>PCE</unit>
+            <order_number>6690164128</order_number>
+            <order_line>2</order_line>
+          </article>
+        </articles>
+      </item>
+    </line_items>
+    <summary>
+      <number_of_items>4</number_of_items>
+    </summary>
+  </body>
+</orion_message>
